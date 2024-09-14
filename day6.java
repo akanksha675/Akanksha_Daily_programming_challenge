@@ -41,7 +41,7 @@ Output: [(0, 2), (2,3)]
         }
     
         public static void main(String[] args) {
-            int[] arr = {1, 2, 3, 3, -1, 2};
+            int[] arr = {1, 2, -3, 3, -1, 2};
             List<int[]> subarrays = findSubarraysWithZeroSum(arr);
     
             // Print the result
